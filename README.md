@@ -22,7 +22,7 @@ public class Account_Fields {
      private WebElement Account, Website, TopAccount;
      Select Type, SubType;
      
-     @FindBy(xpath = "//a[contains(text(), 'U-FUEL INC')]")
+     @FindBy(xpath = "//a[contains(text(), 'opening an account')]")
  	 WebElement ele;
      
     @BeforeClass
