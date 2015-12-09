@@ -48,7 +48,7 @@ public class Account_Fields {
         	// Invoking Type and SubType Dropdown menu
         	Type = new Select(driver.findElement(By.id("acc")));
         	//Type = driver.findElement(By.xpath("//*[@id ='acc6']"));
-        	Type.selectByIndex(1); // 1 (3PL) is for selecting first field in Type drop down menu 
+        	Type.selectByIndex(1); // 1 is for selecting the first field in the dropdown
         	SubType = new Select(driver.findElement(By.id("00NZ0000001"))); 
         	//SubType = driver.findElement(By.xpath(".//*[@id='00NZ0000001RmPM']"));
         	SubType.selectByIndex(2);
